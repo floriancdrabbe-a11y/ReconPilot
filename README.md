@@ -224,7 +224,6 @@ ReconPilot/
 ├── reconpilot_team_baseline.py
 ├── requirements.txt
 ├── README.md
-├── PRESENTATION.md
 └── .gitignore
 ```
 
