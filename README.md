@@ -214,24 +214,6 @@ Metasploit check
 The exploit itself was **not** run. This demonstrates that the ReconPilot recommendation led to a technically relevant next investigation step without claiming that ReconPilot itself proved exploitation.
 
 ---
-
-## Final presentation demo flow
-
-For the final demonstration, the recommended sequence is:
-
-1. Show the problem: raw Nmap output can be difficult for a less-experienced tester to turn into a safe next action.
-2. Open the ReconPilot Streamlit dashboard.
-3. Upload the authorised Metasploitable XML scan.
-4. Keep **Qwen2.5 3B** selected.
-5. Click **Analyse Scan**.
-6. Point out the summary: target, services analysed, validated outputs and rejected outputs.
-7. Expand the **MySQL** result and show that ReconPilot does **not** invent a vulnerability when the exact version is missing.
-8. Show an exact-version result such as **ProFTPD 1.3.5** and explain why it is directed to trusted vulnerability-reference checking.
-9. Explain the safety boundary: the LLM selects only from approved actions, Python validates the response, and active testing requires human approval.
-10. Finish with the practical ProFTPD validation chain and the evaluation results.
-
-A more detailed presenter checklist is available in [PRESENTATION.md](PRESENTATION.md).
-
 ---
 
 ## Project files
