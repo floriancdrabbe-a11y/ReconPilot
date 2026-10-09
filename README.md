@@ -6,7 +6,6 @@ The system takes evidence from an authorised **Nmap XML scan**, converts it into
 
 > **Authorised lab use only.** ReconPilot is designed for controlled cybersecurity training environments such as Metasploitable. It does not automatically authenticate, exploit, or modify a target. Active testing remains a human decision.
 
-![ReconPilot workflow](assets/reconpilot_workflow.png)
 
 ## What ReconPilot does
 
@@ -139,7 +138,6 @@ http://localhost:8501
 
 The interface lets the user upload Nmap XML, select a local model, analyse the scan, review validated recommendations, inspect guidance/evidence/safety information, and export reports.
 
-![ReconPilot dashboard](assets/reconpilot_dashboard.png)
 
 ## Safety design
 
@@ -188,15 +186,12 @@ The exploit itself was **not** run. This validation demonstrates that the recomm
 ## Project files
 
 ```text
-ReconPilot-Capstone/
+ReconPilot/
 ├── app.py
 ├── reconpilot_team_baseline.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-└── assets/
-    ├── reconpilot_workflow.png
-    └── reconpilot_dashboard.png
+└── .gitignore
 ```
 
 ## Team integration
