@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Streamlit / local config
+.streamlit/secrets.toml
+
+# ReconPilot generated reports
+reconpilot_team_recommendations.json
+reconpilot_team_recommendations.txt
+
+# Nmap scan evidence (keep local unless intentionally sanitised)
+*.xml
+*.gnmap
+*.nmap
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
